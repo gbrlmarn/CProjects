@@ -1,6 +1,6 @@
 /*
 
-Linked list implementation
+Simple Linked list implementation
 
 */
 
@@ -77,6 +77,7 @@ int main(int argc, char *argv[])
   
   Node* head = NULL;
 
+  // Testing the functionality
   append(&head, 6);
   printList(head);
 
